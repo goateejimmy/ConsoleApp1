@@ -18,7 +18,7 @@ namespace ConsoleApp1
             Console.WriteLine("Hello World!");
             Task T = Task.Run(() => mytask());
             mytask();
-
+            Console.WriteLine("hi");
 
             Console.WriteLine("End");
         }
